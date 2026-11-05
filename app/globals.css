@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --food-orange: #ff6b35;
+  --food-green: #419d78;
+  --food-cream: #f9f8f6;
+  --food-dark: #2f3e46;
+}
+
+body {
+  background-color: var(--food-cream);
+  color: var(--food-dark);
+}
